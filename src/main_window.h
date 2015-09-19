@@ -1,0 +1,10 @@
+void show_main_window(void);
+void hide_main_window(void);
+void set_range(int, int);
+void set_temp(int);
+void set_temp_text(char*);
+void reset_temp(void);
+void set_load(int);
+void reset_load(void);
+void set_memory(int);
+void reset_memory(void);

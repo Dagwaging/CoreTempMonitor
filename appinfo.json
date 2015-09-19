@@ -1,0 +1,49 @@
+{
+    "appKeys": {
+        "alert": 1,
+        "load": 4,
+        "max": 3,
+        "memory": 5,
+        "min": 2,
+        "temp": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "dagwaging@gmail.com",
+    "longName": "Core Temp",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/needle.png",
+                "name": "NEEDLE",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/needle_small.png",
+                "name": "NEEDLE_SMALL",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/coretemp.png",
+                "name": "BACKGROUND",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Core Temp",
+    "uuid": "3b1fe291-9f0d-4502-a0dd-4512da51d24d",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
