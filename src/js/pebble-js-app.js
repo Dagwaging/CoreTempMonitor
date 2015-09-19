@@ -1,3 +1,5 @@
+var SETPEBBLE_KEY = 'E69V';
+
 var IP = '1';
 var PORT = '2';
 var ALERT = '3';
@@ -18,7 +20,7 @@ function getSettings(callback) {
   }
   
   Pebble.addEventListener('showConfiguration', function(e) {
-    Pebble.openURL('http://x.setpebble.com/ZJPA/' + Pebble.getAccountToken());
+    Pebble.openURL('http://x.setpebble.com/' + SETPEBBLE_KEY + '/' + Pebble.getAccountToken());
     
     console.log("Account token: " + Pebble.getAccountToken());
   });
@@ -76,7 +78,7 @@ function getSettings(callback) {
       callback(null);
     }
   };
-  request.open('get', 'http://x.setpebble.com/api/ZJPA/' + Pebble.getAccountToken());
+  request.open('get', 'http://x.setpebble.com/api/' + SETPEBBLE_KEY + '/' + Pebble.getAccountToken());
   request.send();
 }
 

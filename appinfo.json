@@ -16,10 +16,9 @@
     "resources": {
         "media": [
             {
-                "file": "images/icon.png",
-                "menuIcon": true,
-                "name": "ICON",
-                "type": "png"
+                "file": "images/needle_small.png",
+                "name": "NEEDLE_SMALL",
+                "type": "png-trans"
             },
             {
                 "file": "images/needle.png",
@@ -27,9 +26,10 @@
                 "type": "png-trans"
             },
             {
-                "file": "images/needle_small.png",
-                "name": "NEEDLE_SMALL",
-                "type": "png-trans"
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
             },
             {
                 "file": "images/coretemp.png",
