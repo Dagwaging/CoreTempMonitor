@@ -230,7 +230,7 @@ void set_temp(int _temp) {
   snprintf(temp_text, 8, "%d° C", _temp);
   set_temp_text(temp_text);
   
-  int16_t angle = -(TRIG_MAX_ANGLE * 4 / 12) + (TRIG_MAX_ANGLE * 8 / 12) * (_temp - temp_min) / (temp_max - temp_min);
+  int16_t angle = -(TRIG_MAX_ANGLE * 4 / 12) + (TRIG_MAX_ANGLE * 8 / 12) * (_temp - temp_min > 0 ? _temp - temp_min : 0) / (temp_max - temp_min);
   animate_angle(animation_temp, &needle_temp, angle, 500);
 }
 
