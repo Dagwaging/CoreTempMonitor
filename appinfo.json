@@ -42,7 +42,7 @@
     "shortName": "Core Temp",
     "uuid": "3b1fe291-9f0d-4502-a0dd-4512da51d24d",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": false
     }
